@@ -1,0 +1,1787 @@
+@color1 :rgb(238, 15, 15) ;
+@color-bg-header:#222222;
+@color-header-a:#525252;
+@color-menu:#8262b5;
+@margin-menu:29px;
+@size-icon:12px;
+@border-color:#ddd;
+.mg-l-15{
+    margin-left: 30px;
+}
+body {
+    background-color:@color1;
+}
+.no-padding{
+    padding: 0px 0px !important;
+}
+.ad{
+    .no-padding;
+}
+.header {
+    background-color: @color-bg-header;
+    height: 46px;
+    .fa-bookmark{
+        font-size: 13px;
+    }
+    .fa-cog {
+        font-size: 13px;
+        margin-left: 27px;
+    }
+    .fa-lock{
+        font-size: 12px;
+        margin-left: 32px;
+       margin-top: -3px !important;
+    }
+    .title1  {
+        a{
+            
+            color: @color-header-a; 
+            font-size: 14px; 
+            display: block;
+            padding-top: 12px;
+            margin-left: 17px;
+            font-family: 'Open Sans', sans-serif;
+            letter-spacing: 0.15px;
+        }
+    }
+    .title2{
+        .myhide{
+            margin-left: -2px;
+        }
+        color: @color-header-a; 
+        font-size: 14px; 
+        display: block;
+        padding-top: 12px;
+        padding-left: 30px;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 0.2px;
+    }
+}   
+
+.logo{
+    margin-top: 22px;
+    margin-left: 16px;
+}
+.navbar {
+    margin-top: -12px;
+    margin-left: -16px;
+    ul{
+        margin-left: 265px !important;
+    }
+    .nav-item {
+        .active .nav-link{
+            color: @color-menu !important;
+    
+        }
+        .nav-link {
+            display: inline-block;
+            font-size: 14px;
+            color: #000000 !important;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            margin-top: 25px;
+            margin-left: 38px;
+            
+        }
+    }
+}
+
+
+.fa-heart{
+    font-size: 26px;
+    margin-top: 30px;
+    margin-left: 29px;
+   
+}
+.fa-shopping-cart{
+    font-size:23px;
+    margin-left: 25px;
+}
+.border1{
+    height: 30px;
+    border-top: 0.09rem solid;
+    margin-top: 14px;
+    border-color: @border-color;
+}
+.shop1{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    left: 353px;
+   
+}
+.shop2{
+    text-transform: uppercase;
+    position: absolute;
+    top:106px;
+    transform: translateY(-50%);
+    left: 72px;
+   
+}
+.shop3{
+    text-transform: uppercase;
+    position: absolute;
+    top:373px;
+    transform: translateY(-50%);
+    left: 55px;
+}
+.shop21{
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #616161;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    
+}
+.shop22{
+    margin-top: -6px;
+    font-size: 20px;    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.btn1{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 388px;
+    transform: translateY(-50%);
+    left: 566px;
+    color: #fff;
+    padding: 10px 16px ;
+    background-color: @color-menu;
+}
+.btn2{
+    
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 429px;
+    transform: translateY(-50%);
+    left: 59px;
+    color: #fff;
+    padding: 9px 17px ;
+    text-align: center;
+    background-color: @color-menu;
+}
+.ad .container-md
+{
+    background-color: @color-menu;
+   
+}
+
+.ad1 {
+    margin-right: 200px;
+    position: relative;
+    .no-padding;
+}
+.ad3{
+    margin-top: 30px;
+    position: relative;
+    .no-padding;
+}
+.ad2{
+    position: relative;
+    .no-padding;
+}
+.container-lg{
+    max-width: 1140px !important;
+}
+.container-lg .tim{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: @color-menu;
+    margin-top: 75px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    margin-left: -1px;
+}
+.feature-item{
+    font-size: 24px;
+    margin-top: 12px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2.5px;
+    margin-left: -3px;
+}
+.feature-item{
+    position: relative;
+    margin-bottom: 77px;
+        line-height: 100%;
+        display: inline-block;
+        &::after {
+          top: 48px;
+          position: absolute;
+          left:3px;
+          width: 50px;
+          height: 2px;
+          content: "";
+          border-bottom: 0.05rem solid @color-menu;
+        }
+}
+.myimg1{
+    //z-index: 1;
+    position: relative;
+}
+
+section article .mg-t{
+    margin-top: 60px;
+}
+.product-title{
+   
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-top: 10px;
+}
+.star1{
+    color: #f9c325;
+    font-size: 12px;
+    margin-left: 14px;
+    margin-top: 3px;
+    font-weight: 400;
+}
+.star2{
+    font-size: 12px;
+    color: #dadada;
+    margin-top: 3px;
+}
+.sale {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 14px;
+    color: #999;
+    text-decoration: line-through;
+}
+.price{
+    margin-top: 5px;
+    margin-left: 3px;
+    color: @color-menu;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.price1{
+    
+    margin-left: 3px !important;
+    .price;
+    
+    
+}
+
+.price2 {
+    margin-top: 4px;
+    margin-left: 13px;
+    color: @color-menu;
+    font-weight: 700;
+}
+.atc{
+    position: absolute;
+    font-size: 12px;
+    line-height: 26px;
+    color: #424242;
+    font-weight: 500;
+    font-family: "Montserrat";
+    top: 297px;
+    transform: translateY(-50%);
+    left: 20px;
+    background-color: #fff;
+    padding: 8px 17px;
+      &:hover{
+          color: @color-menu;
+          cursor: pointer;
+      }  
+}
+.atc2{
+    left: 22px !important;
+    padding: 8px 16px !important;
+    .atc;
+}
+.row2 {
+    padding-top: 45px;
+}
+.article1{
+    padding-top: 75px;
+    position: relative;
+    .container-fluid{
+        padding: 0%;
+    }  
+}
+.title3{
+    font-size: 12px;
+    letter-spacing: 6px;
+    color: #8262b5;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.shop4{
+    position: absolute;
+    bottom: 567px;
+    left: 7px;
+    right: 0px;
+    margin: 0 auto;
+    h3{
+    margin-top: 10px;
+    margin-left: -2px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    &::after {
+        top: 79px;
+        position: absolute;
+        left:85px;
+        width: 52px;
+        height: 2px;
+        content: "";
+        border-bottom: 0.15rem solid @color-menu;
+      }
+    }
+}
+.slider{
+    top: 280px;
+    position: absolute;
+    left:0px;
+    right: 0px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.date{
+    position: absolute;
+    top: 52px;
+    transform: translateY(-50%);
+    left: 21px;
+    padding: 12px 17px;
+    background-color: #a1d1dd;
+    &::before{
+        position: absolute;
+        content: "";
+        top:5px;
+        left:5px ;
+        right: 5px;
+        bottom: 5px;
+        border: 1px solid color(#fff);
+    }
+    .month{
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
+        margin-bottom: -4px;
+    }
+    .day{
+       .month;
+       font-weight: 700;
+       font-size: 16px !important;
+    }
+}
+.post1{
+    margin-left: 19px;
+    margin-top: 14px;
+    
+}
+.item{
+    background-color: #fff;
+}
+.post-title{
+    
+    height: 21px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.post-title3{
+    .post-title;
+    padding-top: 1px !important;
+    margin-left: -2px !important;
+    letter-spacing: 0.005px;
+  
+}
+.post-context{
+    margin-left: 0px !important;
+    margin-top: 17px;
+    letter-spacing: 0.25px;
+    font-size: 14px;
+      font-family: 'Open Sans', sans-serif;;
+}
+.post-context2{
+    margin-left: 1px;
+    margin-top: 2px;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;;
+    line-height: 22px;
+}
+.icon{
+    opacity: 0.4    ;
+    font-size: 14px;
+    margin-top: 6px;
+    .fa-heart{
+        font-size: 15px;
+    }
+    .number1{
+        margin-left: 3px;
+    }
+    .number2{
+        margin-left: 3px;
+    }
+    &::before{
+        bottom: 69px;
+        position: absolute;
+        left:0px;
+        width: 360px;
+        height: 1px;
+        content: "";
+        border-top: 0.1rem solid #ededed;
+    }
+ 
+ 
+}
+.blank {
+    height: 20px;
+    background-color: #fff;
+    margin-bottom: 13px;
+}
+.blank1{
+    height: px;
+}
+.item a:hover{
+    color: @color-menu !important;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #222222;
+    height: auto;
+    .about{
+        margin-top: 20px;
+        .about-context{
+            width: 263px;
+            height: 131px;
+            font-size: 14px;
+            line-height: 22px;
+            color: #888888;
+            font-weight: 400;
+            font-family: "Open Sans";
+            margin-top: 48px;
+            letter-spacing: 0.3px;
+           
+        }
+        .title{
+            margin-top: 59px !important;
+            margin-left: 1px;
+        }
+        .icon{
+            color: #828282;
+            margin-top: 24px !important;
+            letter-spacing: 30px;
+            font-size: px;
+            margin-left: 2px !important;
+           
+            .fa-behance{
+                margin-left: 5px;
+            }
+            &::before{
+                bottom: 217px !important;
+                position: absolute;
+                left:14px;
+                width: 260px;
+                height: 1px;
+                content: "";
+                border-top: 1px groove #f7f7f7 !important;
+                font-weight: 100;
+                
+            }
+         
+        }
+       
+    }
+    .title{
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+        color: #f7f7f7;
+        font-weight: 400;
+        font-family: "Montserrat";
+        margin-top: 60px ;
+        margin-left: -1px;
+    }
+    .navigation{
+        .icon{
+            &::before{
+                bottom: 217px !important;
+                border-top: 1px groove #f7f7f7 !important;
+                left:15px;
+                width: 360px !important;
+            }
+        }
+        .menudoc2{
+            margin-top: px;
+            letter-spacing: 0.2px;
+            li a{
+                margin-left: 1px;
+            }
+        }
+    }
+    .navigation ul li a{
+        font-size: 14px;
+        line-height: 22px;
+        color: #888888;
+        font-weight: 400;
+        font-family: "Open Sans";
+        &:hover{
+            color: #fff;
+            text-decoration: underline;
+        }
+    }
+    .navigation ul{
+        list-style-type: none;
+        margin-top: 46px ;
+        margin-left: -2px;
+    }
+    .navigation ul li{
+        margin-top: 6px;
+    }
+    .contact{
+        .title{
+            margin-left: 113px;
+        }
+        .icon{
+            &::before{
+                bottom: 217px !important;
+                border-top: 1px groove #f7f7f7 !important;
+                left:114px;
+                width: 260px !important;
+            }
+        }
+        .contact-context
+        {
+            margin-top: 49px;
+            .menucontact1{
+                margin-left: -1px;
+                .fa-map{
+                    font-size: 16px;
+                }
+                .fa-phone-alt{
+                    margin-top: 47px;
+                    font-size: 11px;
+                }
+                .fa-envelope{
+                    margin-top: 19px;
+                }
+            }
+            .menucontact2{
+                width: 233px;
+                height: 114px;
+                font-size: 14px;
+                line-height: 33px;
+                color: #888888;
+                font-weight: 400;
+                font-family: "Open Sans";
+                margin-top: -5px;
+                margin-left: 110px;
+                letter-spacing: 0.05px;
+            }
+        }
+        ul li{
+            list-style-type: none;
+            a{
+                font-size: 14px;
+                line-height: 22px;
+                color: #888888;
+                font-weight: 400;
+                font-family: "Open Sans";
+                margin-left: 115px;
+            }
+        }
+    }
+    &::after {
+        top:2914px;
+        position: absolute;
+        width: 1920px;
+        height: 2px;
+        right: 10px;
+        content: "";
+        border-bottom: 1px solid #888;
+      }
+    .copyright{
+        font-size: 14px;
+        line-height: 25px;
+        color: #888888;
+        font-weight: 400;
+        font-family: "Open Sans";
+        text-align: center;
+         margin-top: 21px;
+       letter-spacing: 0.1px;
+       padding-bottom: 25px;;
+       .fa-heart{
+           font-size: 13px;
+           color: #ff4628;
+       }
+        .fa-copyright{
+            margin-right: 5px;
+            margin-left: 15px;
+            font-size: 12px;
+        }
+    }
+    .bank {
+        margin-top: 38px;
+        a{
+            color: #888;
+            font-size: 22px;
+            margin-left: 662px;
+           
+            .fa-cc-visa,.fa-cc-paypal,.fa-cc-mastercard,.fa-cc-discover{
+                margin-right: 6px;
+            }
+        }
+    }
+}
+.no-padding-r{
+    padding-right: 0px !important;
+}
+.mg-l-7{
+    margin-left: 5px !important;
+}
+.mg-t-44 {
+    margin-top: 44px;
+}
+/****************MEDIA*****************/
+/* Iphone 5/SE */
+@media (min-width: 319px) and (max-width: 372.98px) {
+    .padding-r{
+        padding-right: 30px !important;
+    }
+    .logo{
+        margin-top: 22px;
+        margin-right: 30px !important;
+        margin-left: 45px;
+    }
+    .shop1{
+        width: 160px;
+        top: 59%;
+        left: 42%;
+        font-size: 25px;
+    }
+    .navbar-toggler{
+        margin-top: 24px;
+        margin-left: -5px !important;
+    }
+    .nav-item{
+        margin-left: -270px !important;
+    }
+    .btn1{
+        font-size: 11px;
+        top: 82%;
+        left: 55%;
+        padding: 5px 10px ;
+        text-align: center;
+    }
+    .slider{
+        top: 50%px;
+        transform: 0 translateY(-50%);
+        width: 100%;
+        left:0px;
+    }
+    
+    .shop4{
+        top: 20%;
+        transform: 0 translateY(-50%);
+        left: 0px;
+        right: 0px;
+        margin: 0 auto;
+        h3{
+        margin-top: 9px;
+        margin-left: -6px;
+        font-weight: 700;
+        &::after {
+            top: 90%;
+            left:0px;
+            right: 0px;
+            margin: 0 auto;
+            width: 52px;
+            height: 2px;
+          }
+        }
+    }
+    .ad1{
+        margin-right: 0px;
+    }
+    .header{
+        height: 60px;
+        .title1{
+            margin-left: -20px;
+        }
+        .myhide{
+            display: none;
+        }
+        .fa-cog{
+            margin-left: -20px;
+        }
+        .fa-lock{
+            margin-left: 8px;
+        }
+    }
+    footer{
+        &::after {
+            display: none;
+          }
+        .bank{
+            margin-top: -120px;
+            margin-left: 30px;
+        a{
+            margin-left: 0px !important;
+        }
+        }
+        .copyright{
+            margin-top: 5px;
+            margin-left: -15px;
+            font-size: 12px;
+        }
+        .contact{
+            margin-left: -95px;
+            .title{
+                margin-left: 95px;
+                
+            }
+            .icon{
+                &::before{
+                    bottom: 72% !important;
+                    width: 260px !important;
+                    margin-left: -100px;
+                }
+            }
+            .contact-context
+            {
+                margin-top: 45px;
+                .menucontact1{
+                    margin-left: -35px;
+                    .fa-phone-alt{
+                        margin-top: 78px !important;
+                    }
+                    .fa-envelope{
+                        margin-top: 19px;
+                    }
+                }
+                .menucontact2{
+                    width: 233px;
+                    margin-top: -6px;
+                    margin-left: 120px;
+                }
+            }
+            ul li{
+                list-style-type: none;
+                a{
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-left: 115px;
+                }
+            }
+        }
+        .navigation{
+            .icon{
+                &::before{
+                    bottom: 80% !important;
+                    left:15px;
+                    width: 270px !important;
+                }
+            }
+        }
+    }
+    .no-padding{
+        padding: 0px 15px !important;
+    }
+    .shop2{
+        margin-top: 15px !important;
+    }
+    .ad2, .ad3{
+        margin-top: 15px;
+        width: 100%;
+        height: auto;
+    }
+    .shop3{
+       
+        position: absolute;
+        top:60%;
+      
+        left: 8%;
+    }
+    .btn2{
+    
+       
+        top: 70%;
+      
+        left: 8%;
+       
+        padding: 9px 17px ;
+       
+    }
+    .myimg{
+        margin-top: 44px;
+       
+        img{
+            width: 100%;
+            height: 324px;
+        }
+    }
+    .feature-item{
+        margin-bottom: -44px;
+    }
+   
+    .item{
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    .mg-t-44{
+        margin-top: 0px;
+    }
+
+}
+/* Iphone 6,7,8*/
+@media (min-width: 373px) and (max-width: 413.98px) {
+    .mg-t-44{
+        margin-top: 0px;
+    }
+    .padding-r{
+        padding-right: 30px !important;
+    }
+    .logo{
+        margin-top: 22px;
+        margin-right: 30px !important;
+        margin-left: 70px;
+    }
+    .shop1{
+        width: 187px;
+        top: 59%;
+        left: 42%;
+        
+    }
+    .navbar-toggler{
+        margin-top: 24px;
+    }
+    .nav-item{
+        margin-left: -270px !important;
+    }
+    .btn1{
+        font-size: 14px;
+        top: 83%;
+        left: 48%;
+        padding: 10px 16px ;
+    }
+    .slider{
+        top: 50%px;
+        transform: 0 translateY(-50%);
+        width: 100%;
+        left:0px;
+    }
+    
+    .shop4{
+        top: 20%;
+        transform: 0 translateY(-50%);
+        left: 0px;
+        right: 0px;
+        margin: 0 auto;
+        h3{
+        margin-top: 9px;
+        margin-left: -6px;
+        font-weight: 700;
+        &::after {
+            top: 85%;
+            left:0px;
+            right: 0px;
+            margin: 0 auto;
+            width: 52px;
+            height: 2px;
+          }
+        }
+    }
+    .ad1{
+        margin-right: 0px;
+    }
+    .header{
+        height: 60px;
+        .title1{
+            margin-left: -20px;
+        }
+        .myhide{
+            display: none;
+        }
+        .fa-cog{
+            margin-left: -20px;
+        }
+        .fa-lock{
+            margin-left: 8px;
+        }
+    }
+    
+    footer{
+        &::after {
+            display: none;
+            }
+            .bank{
+                margin-top: -95px;
+                margin-left: 29px;
+            a{
+                margin-left: 0px !important;
+            }
+            }
+            .copyright{
+                margin-top: 5px;
+                margin-left: -15px;
+                font-size: 12px;
+            }
+        .contact{
+            margin-left: -95px;
+            .title{
+                margin-left: 95px;
+            }
+            .icon{
+                &::before{
+                    bottom: 73% !important;
+                    width: 260px !important;
+                    margin-left: -100px;
+                }
+            }
+            .contact-context
+            {
+                margin-top: 49px;
+                .menucontact1{
+                    margin-left: -35px;
+                    .fa-phone-alt{
+                        margin-top: 78px !important;
+                    }
+                    .fa-envelope{
+                        margin-top: 19px;
+                    }
+                }
+                .menucontact2{
+                    width: 233px;
+                    margin-top: -6px;
+                    margin-left: 115px;
+                }
+            }
+            ul li{
+                list-style-type: none;
+                a{
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-left: 115px;
+                }
+            }
+        }
+        .navigation{
+            .icon{
+                &::before{
+                    bottom: 290px !important;
+                    left:15px;
+                    width: 310px !important;
+                }
+            }
+        }
+    }
+    .no-padding{
+        padding: 0px 15px !important;
+    }
+    .shop2{
+        margin-top: 15px !important;
+    }
+    .ad2, .ad3{
+        margin-top: 15px;
+        width: 100%;
+        height: auto;
+    }
+    .shop3{
+       
+        position: absolute;
+        top:60%;
+      
+        left: 8%;
+    }
+    .btn2{
+    
+       
+        top: 70%;
+      
+        left: 8%;
+       
+        padding: 9px 17px ;
+       
+    }
+    .myimg{
+        margin-top: 44px;
+       
+        img{
+            width: 100%;
+            height: 324px;
+        }
+    }
+    .feature-item{
+        margin-bottom: -44px;
+    }
+    
+    .item{
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+}
+/* Iphone 6,7,8+ */
+@media (min-width: 413px) and(max-width: 575.98px) {
+    .logo{
+        margin-top: 22px;
+        margin-right: 50px !important;
+        margin-left: 90px;
+    }
+    .mg-t-44{
+        margin-top: 0px;
+    }
+    .padding-r{
+        padding-right: 30px !important;
+    }
+	.shop1{
+        width: 187px;
+        top: 59%;
+        left: 42%;
+       
+    }
+    .navbar-toggler{
+        margin-top: 24px;
+    }
+    .nav-item{
+        margin-left: -270px !important;
+    }
+    .btn1{
+        font-size: 14px;
+        top: 80%;
+        left: 50%;
+        padding: 10px 16px ;
+    }
+    .slider{
+        top: 25%;
+        transform: 0 translateY(-50%);
+        width: 100%;
+        left:0px;
+    }
+    
+    .shop4{
+        top: 12%;
+        transform: 0 translateY(-50%);
+        left: 0px;
+        right: 0px;
+        margin: 0 auto;
+        h3{
+        margin-top: 9px;
+        margin-left: -6px;
+        font-weight: 700;
+        &::after {
+            top: 60%;
+            left:0px;
+            right: 0px;
+            margin: 0 auto;
+            width: 52px;
+            height: 2px;
+          }
+        }
+    }
+    .ad1{
+        margin-right: 0px;
+    }
+    .header{
+        height: 60px;
+        .title1{
+            margin-left: -20px;
+        }
+        .myhide{
+            display: none;
+        }
+        .fa-cog{
+            margin-left: -20px;
+        }
+        .fa-lock{
+            margin-left: 8px;
+        }
+    }
+   
+    footer{
+        &::after {
+            display: none;
+          }
+          .bank{
+            margin-top: -80px;
+            margin-left: 29px;
+        a{
+            margin-left: 0px !important;
+        }
+        }
+        .copyright{
+            margin-top: 15px;
+            margin-left: -15px;
+            font-size: 12px;
+        }
+        .contact{
+            margin-left: -95px;
+            .title{
+                margin-left: 95px;
+            }
+            .icon{
+                &::before{
+                    bottom: 70% !important;
+                    width: 260px !important;
+                    margin-left: -100px;
+                }
+            }
+            .contact-context
+            {
+                margin-top: 49px;
+                .menucontact1{
+                    margin-left: -30px;
+                    .fa-phone-alt{
+                        margin-top: 45px !important;
+                    }
+                    .fa-envelope{
+                        margin-top: 20px;
+                    }
+                }
+                .menucontact2{
+                    width: 205px;
+                    margin-top: -6px;
+                    margin-left: 113px;
+                }
+            }
+            ul li{
+                list-style-type: none;
+                a{
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-left: 115px;
+                }
+            }
+        }
+        .navigation{
+            .icon{
+                &::before{
+                    bottom: 74% !important;
+                    left:15px;
+                    width: 340px !important;
+                }
+            }
+        }
+    }
+    .no-padding{
+        padding: 0px 15px !important;
+    }
+    .shop2{
+        margin-top: 15px !important;
+    }
+    .ad2, .ad3{
+        margin-top: 15px;
+        width: 100%;
+        height: auto;
+    }
+    .shop3{
+        margin-top: 15px;
+        top: 70%;
+
+    }
+    .btn2{
+        top: 80%;
+        left: 13%;
+    }
+    .myimg{
+        margin-top: 44px;
+       
+        img{
+            width: 100%;
+            height: 324px;
+        }
+    }
+    .feature-item{
+        margin-bottom: -44px;
+    }
+   
+  
+    .item{
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 735.98px) {
+    .mg-t-44{
+        margin-top: 0px;
+    }
+    .no-padding-l{
+        padding-right: 0px !important;
+    }
+	.shop1{
+        width: 310px;
+        top: 60%;
+        left: 45%;
+       
+    }
+    .logo{
+        margin-left: 50px;
+    }
+    .navbar-toggler{
+        margin-top: 24px;
+    }
+    .nav-item{
+        margin-left: -270px !important;
+    }
+    .btn1{
+        font-size: 14px;
+        top: 80%;
+        left: 260px;
+        padding: 7px 16px ;
+    }
+    .btn2{
+        top: 230px;
+        left: 30px;
+        padding: 7px 8px ;
+    }
+    .slider{
+        top: 50%px;
+        transform: 0 translateY(-50%);
+        width: 100%;
+        left:0px;
+    }
+    
+    .shop4{
+        top: 20%;
+        transform: 0 translateY(-50%);
+        left: 0px;
+        right: 0px;
+        margin: 0 auto;
+        h3{
+        margin-top: 9px;
+        margin-left: -6px;
+        font-weight: 700;
+        &::after {
+            top: 85%;
+            left:0px;
+            right: 0px;
+            margin: 0 auto;
+            width: 52px;
+            height: 2px;
+          }
+        }
+    }
+    .ad1{
+        margin-right: 0px;
+    }
+    .header{
+        height: 70px;
+    }.fa-cog{
+        margin-left: 30px;
+    }
+   
+    footer{
+        margin-top: 200px;
+        .about{
+            .icon{
+                &::before{
+                    bottom: 78% !important;
+                    left:15px;
+                    width: 260px;
+                }
+            }
+        }
+        &::after {
+            display: none;
+          }
+        .bank{
+            margin-top: -5px;
+            margin-left: 20px;
+        a{
+            margin-left: 0px !important;
+        }
+        }
+        .copyright{
+            margin-top: -20px;
+            margin-left: 5px;
+        }
+        .contact{
+            margin-left: -95px;
+            .title{
+                margin-left: 95px;
+            }
+            .icon{
+                &::before{
+                    bottom: 73% !important;
+                    width: 260px !important;
+                    margin-left: -100px;
+                }
+            }
+            .contact-context
+            {
+                margin-top: 49px;
+                .menucontact1{
+                    margin-left: -30px;
+                    .fa-phone-alt{
+                        margin-top: 78px !important;
+                    }
+                    .fa-envelope{
+                        margin-top: 18px;
+                    }
+                }
+                .menucontact2{
+                    width: 233px;
+                    margin-top: -6px;
+                    margin-left: 125px;
+                }
+            }
+            ul li{
+                list-style-type: none;
+                a{
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-left: 115px;
+                }
+            }
+        }
+        .navigation{
+            .icon{
+                &::before{
+                    bottom: 78% !important;
+                    left:15px;
+                    width: 270px !important;
+                }
+            }
+        }
+    }
+    .no-padding{
+        padding: 0px 15px !important;
+    }
+    .shop2{
+        margin-top: 15px !important;
+        top:40px;
+        left: 45px;
+        .shop21{
+            font-size: 13px;
+        }
+        .shop22{
+            font-size: 17;
+        }
+    }
+    .shop3{
+        top:170px;
+        left: 30px;
+        .shop21{
+            font-size: 13px;
+        }
+        .shop22{
+            font-size: 12px;
+        }
+    }
+    .ad2, .ad3{
+        
+        width: 100%;
+        height: auto;
+    }
+    .ad3{
+        margin-top: 27px;
+    }
+    .shop3{
+        margin-top: 15px;
+    }
+    .myimg{
+        margin-top: 44px;
+        
+        img{
+            width: 100%;
+            height: 324px;
+        }
+    }
+    .feature-item{
+        margin-bottom: -44px;
+    }
+   
+  
+    .item{
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    }   
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 736px) and (max-width: 991.98px) {
+    .mg-t-44{
+        margin-top: 0px;
+    }
+	.no-padding-l{
+        padding-right: 0px !important;
+    }
+	.shop1{
+        width: 210px;
+        top: 67%;
+        left: 240px;
+       
+    }
+    .navbar-toggler{
+        margin-top: 24px;
+    }
+    .nav-item{
+        margin-left: -270px !important;
+    }
+    .btn1{
+        font-size: 14px;
+        top: 85%;
+        left: 60%;
+        padding: 7px 16px ;
+    }
+    .btn2{
+        top: 290px;
+        left: 30px;
+        padding: 10px 10px ;
+    }
+    .slider{
+        top: 50%px;
+        transform: 0 translateY(-50%);
+        width: 100%;
+        left:0px;
+    }
+    
+    .shop4{
+        top: 20%;
+        transform: 0 translateY(-50%);
+        left: 0px;
+        right: 0px;
+        margin: 0 auto;
+        h3{
+        margin-top: 9px;
+        margin-left: -6px;
+        font-weight: 700;
+        &::after {
+            top: 85%;
+            left:0px;
+            right: 0px;
+            margin: 0 auto;
+            width: 52px;
+            height: 2px;
+          }
+        }
+    }
+    .ad1{
+        margin-right: 0px;
+    }
+    .header{
+        
+    }.fa-cog{
+        margin-left: 11px;
+    }
+    
+    footer{
+        margin-top: 200px;
+        .about{
+            .icon{
+                &::before{
+                    bottom: 74% !important;
+                    left:15px;
+                    width: 260px;
+                }
+            }
+        }
+        &::after {
+            display: none;
+          }
+        .bank{
+            margin-top: -5px;
+            margin-left: 20px;
+        a{
+            margin-left: 0px !important;
+        }
+        }
+        .copyright{
+            margin-top: -20px;
+            margin-left: 5px;
+        }
+        .contact{
+            margin-left: -95px;
+            .title{
+                margin-left: 95px;
+            }
+            .icon{
+                &::before{
+                    bottom: 70% !important;
+                    width: 260px !important;
+                    margin-left: -100px;
+                }
+            }
+            .contact-context
+            {
+                margin-top: 49px;
+                .menucontact1{
+                    margin-left: -30px;
+                    .fa-phone-alt{
+                        margin-top: 46px !important;
+                    }
+                    .fa-envelope{
+                        margin-top: 18px;
+                    }
+                }
+                .menucontact2{
+                    width: 233px;
+                    margin-top: -6px;
+                    margin-left: 113px;
+                }
+            }
+            ul li{
+                list-style-type: none;
+                a{
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-left: 115px;
+                }
+            }
+        }
+        .navigation{
+            .icon{
+                &::before{
+                    bottom: 74% !important;
+                    left:15px;
+                    width: 340px !important;
+                }
+            }
+        }
+    }
+    .no-padding{
+        padding: 0px 15px !important;
+    }
+    .shop2{
+        margin-top: 15px !important;
+        top:50px;
+        left: 45px;
+        .shop21{
+            font-size: 13px;
+        }
+        .shop22{
+            font-size: 17;
+        }
+    }
+    .shop3{
+        top:230px;
+        left: 30px;
+        .shop21{
+            font-size: 13px;
+        }
+        .shop22{
+            font-size: 17px;
+        }
+    }
+    .ad2, .ad3{
+        
+        width: 100%;
+        height: auto;
+    }
+    .ad3{
+        margin-top: 27px;
+    }
+    .shop3{
+        margin-top: 15px;
+    }
+    .myimg{
+        margin-top: 44px;
+      
+        img{
+            width: 100%;
+            height: 324px;
+        }
+    }
+    .feature-item{
+        margin-bottom: -44px;
+    }
+  
+    .item{
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.slider{
+        top: 50%px;
+        transform: 0 translateY(-50%);
+        width: 100%;
+        left:0px;
+    }
+    
+    .shop4{
+        top: 20%;
+        transform: 0 translateY(-50%);
+        left: 0px;
+        right: 0px;
+        margin: 0 auto;
+        h3{
+        margin-top: 9px;
+        margin-left: -6px;
+        font-weight: 700;
+        &::after {
+            top: 85%;
+            left:0px;
+            right: 0px;
+            margin: 0 auto;
+            width: 52px;
+            height: 2px;
+          }
+        }
+    }
+    .no-padding{
+        padding: 0px 15px !important;
+    }
+    .navbar{
+       ul{
+           margin-left: 10px !important;
+        }
+        .nav-link{
+            margin-left: 20px !important;
+        }
+       .myicon{
+           font-size: 10px;
+            margin-left: -8px;
+       }
+    
+    }
+    .shop1{
+      
+        top: 58%;
+        left: 290px;
+       
+    }
+    .btn1{
+        
+        top: 340px;
+        left: 460px;
+        
+    }
+    .ad2, .ad3{
+        
+        width: 100%;
+        height: auto;
+    }
+    .myimg{
+        margin-top: 44px;
+        
+        img{
+            width: 100%;
+            height: 324px;
+        }
+    }
+    .feature-item{
+        margin-bottom: -44px;
+    }
+  
+    footer{
+        
+        .about{
+            .icon{
+                &::before{
+                    bottom: 280px !important;
+                    left:15px;
+                    width: 260px;
+                }
+            }
+        }
+        &::after {
+            display: none;
+          }
+        .bank{
+            margin-top: -5px;
+            margin-left: 400px;
+        a{
+            margin-left: 0px !important;
+        }
+        }
+        .copyright{
+            margin-top: -20px;
+            margin-left: 5px;
+        }
+        .contact{
+            margin-left: -95px;
+            .title{
+                margin-left: 95px;
+            }
+            .icon{
+                &::before{
+                    bottom: 280px !important;
+                    width: 260px !important;
+                    margin-left: -100px;
+                }
+            }
+            .contact-context
+            {
+                margin-top: 49px;
+                .menucontact1{
+                    margin-left: -30px;
+                    .fa-phone-alt{
+                        margin-top: 15px !important;
+                    }
+                    .fa-envelope{
+                        margin-top: 18px;
+                    }
+                }
+                .menucontact2{
+                    width: 233px;
+                    margin-top: -6px;
+                    margin-left: 113px;
+                }
+            }
+            ul li{
+                list-style-type: none;
+                a{
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-left: 115px;
+                }
+            }
+        }
+        .navigation{
+            .icon{
+                &::before{
+                    bottom: 280px !important;
+                    left:15px;
+                    width: 300px !important;
+                }
+            }
+        }
+    }
+}
+/* Extra large devices (large desktops, 1200px to 1400px)*/
+@media (min-width: 1200px) and (max-width:1400px){
+	.myhide{
+        display: none;
+    }
+    .navbar{
+        ul{
+            margin-left: 5px !important;
+        }
+    }
+}
+
